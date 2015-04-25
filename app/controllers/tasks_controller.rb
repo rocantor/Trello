@@ -5,6 +5,7 @@ class TasksController < ApplicationController
   # GET /tasks.json
   def index
     @tasks = Task.all
+    @tasks = Task.order(enddate: :desc)
   end
 
   # GET /tasks/1

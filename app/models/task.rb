@@ -6,5 +6,4 @@ class Task < ActiveRecord::Base
     validates :duration, numericality: { only_integer: true }
     validates :startdate, presence: true
     validates :enddate, presence: true
-    
 end
