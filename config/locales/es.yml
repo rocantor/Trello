@@ -191,4 +191,21 @@ es:
       short: "%d de %b %H:%M"
     pm: pm
     
-    
+  "Sign up": "Registrarse"
+  "Sign In": "Ingresar"
+  "Log in": "Autenticación"
+  "Back": "Atrás"
+  "New member": "Nuevo miembro"
+  "Sign Up": "Registro"
+  "Sign Out": "Salir"
+  "Members": "Miembros"
+  "Tasks": "Tareas"
+  "(we need your current password to confirm your changes)": "(Necesitamos tu contraseña actual para confirmar tus cambios)"
+  "Unhappy": "Insatisfecho"
+  "Create Member": "Crear miembro"
+  "New task": "Nueva tarea"
+  "Create Task": "Crear tarea"
+  "Edit Member": "Editar información de miembro"
+  "Forgot your password?": "Olvidó su contraseña?"
+  "Send me reset password instructions": "Enviarme instrucciones"
+  " characters minimum": " caracteres mínimo"

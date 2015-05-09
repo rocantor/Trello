@@ -32,14 +32,14 @@
                 <%= link_to current_member.fullname, edit_member_registration_path %>
             </li>
             <li>
-                <%= link_to 'Sign Out', destroy_member_session_path, method: :delete %>
+                <%= link_to t('Sign Out'), destroy_member_session_path, method: :delete %>
             </li>
           <% else %>
             <li class="active">
-                <%= link_to 'Sign Up', new_member_registration_path %>
+                <%= link_to t('Sign Up'), new_member_registration_path %>
             </li>
             <li>
-             <%= link_to 'Sign In', new_member_session_path %>
+             <%= link_to t('Sign In'), new_member_session_path %>
             </li>
           <% end %>
         </ul>
@@ -48,10 +48,10 @@
         <ul class="left">
           <% if member_signed_in? %>
           <li>
-            <%= link_to 'Members', members_path %>
+            <%= link_to t('Members'), members_path %>
           </li>
           <li>
-            <%= link_to 'Tasks', tasks_path %>
+            <%= link_to t('Tasks'), tasks_path %>
           </li>
           <% end %>
         </ul>

@@ -1,5 +1,24 @@
 es:
     activerecord:
         attributes:
-            user:
+            member:
                 name: "Nombre"
+                email: "Correo Electrónico"
+                password: "Contraseña"
+                remember_me: "Recordarme"
+                lastname: "Apellido"
+                username: "Usuario"
+                password_confirmation: "Confirmar Contraseña"
+                current_password: "Contraseña actual"
+                
+            task:
+                title: "Título"
+                description: "Descripción"
+                duration: "Duración"
+                startdate: "Fecha de inicio"
+                enddate: "Fecha de finalización"
+                member: "Miembro"
+                done: "Finalizada"
+                
+                
+    
